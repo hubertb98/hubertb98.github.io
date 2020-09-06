@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
-  var apiRoot = 'https://frozen-beach-16326.herokuapp.com/v1/task/';
-  var trelloApiRoot = 'http://localhost:8080/v1/trello/';
-  var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
+  const apiRoot = 'https://frozen-beach-16326.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'http://localhost:8080/v1/trello/';
+  const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const tasksContainer = $('[data-tasks-container]');
 
   var availableBoards = {};
