@@ -3,7 +3,7 @@ $(document).ready(function() {
   var apiRoot = 'https://frozen-beach-16326.herokuapp.com/v1/task/';
   var trelloApiRoot = 'http://localhost:8080/v1/trello/';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
-  var tasksContainer = $('[data-tasks-container]');
+  const tasksContainer = $('[data-tasks-container]');
 
   var availableBoards = {};
   var availableTasks = {};
